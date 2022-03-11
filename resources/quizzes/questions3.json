@@ -1,0 +1,70 @@
+[
+    {
+        "question": "How do we represent words to give them some meaning to our machines?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "As matrices",
+                "correct": true,
+                "feedback": "Correct. Vectors are really matrices with either one row or one column."
+            },
+            {
+                "answer": "As scalars",
+                "correct": false,
+                "feedback": "Not really. A single number won't give us any information about the word, it may only act as its identifier"
+            },
+            {
+                "answer": "As vectors",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "As pictures",
+                "correct": false,
+                "feedback": "False. A picture can be used to classify an object. But on its own has no meaning and cannot represent a single word well"
+            }
+        ]
+    },
+    {
+        "question": "How do we measure similarity between two high-dimensional vectors?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Using a protractor",
+                "correct": false,
+                "feedback": "False. As humans we can't visualise high-dimensional spaces nor can we measure multi-D vectors using a protractors"
+            },
+            {
+                "answer": "Using cosine similarity",
+                "correct": true,
+                "feedback": "True."
+            },
+            {
+                "answer": "Using computers",
+                "correct": true,
+                "feedback": "True. Definitely computers are better than us at doing repetitive tasks on vectors and vector spaces"
+            },
+            {
+                "answer": "We cannot measure this",
+                "correct": false,
+                "feedback": "False. Of course we can, you just did ;)"
+            }
+        ]
+    },
+    {
+        "question": "If we have two word vectors and we add them together, can it actually mean something?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Yes",
+                "correct": true,
+                "feedback": "Yes. Word Vector Arithmetic exists and can be used"
+            },
+            {
+                "answer": "No",
+                "correct": false,
+                "feedback": "You're not right this time. Remember 'fruit'+'yellow'='banana'?"
+            }
+        ]
+    }
+]

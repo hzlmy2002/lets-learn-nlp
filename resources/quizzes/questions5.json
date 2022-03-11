@@ -1,0 +1,81 @@
+[
+    {
+        "question": "What is a keyword in NLP?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "The longest word in a document",
+                "correct": false,
+                "feedback": "False. The length of the word does not inform us about its importance to the whole text."
+            },
+            {
+                "answer": "A word that acts as a key in Python dicionary",
+                "correct": false,
+                "feedback": "False. By the way, not only Python is used for NLP tasks."
+            },
+            {
+                "answer": "A word of highest emotional intensity",
+                "correct": false,
+                "feedback": "False. Words expressing too much emotions are usually not very informative."
+            },
+            {
+                "answer": "An important word, phrase or expression that can represent an underlying document in a short and clear way",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "How does abstractive summarization work?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It chooses the most important sentences using a scoring algorithm and concatanates them",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "It uses advanced AI methods to paraphrase existing text and generate a summary",
+                "correct": true,
+                "feedback": "True."
+            },
+            {
+                "answer": "It searches for an abstract of a paper in a document and prints it.",
+                "correct": false,
+                "feedback": "False. It would be useless. Also, not every text has an abstract."
+            },
+            {
+                "answer": "Generates sentences using extracted keywords",
+                "correct": false,
+                "feedback": "False. Access to keywords only is not enough. Generating a sentence based on them will usually be totally unrelated to the original text."
+            }
+        ]
+    },
+    {
+        "question": "How does extractive summarization work?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It chooses the most important sentences using a scoring algorithm and concatanates them",
+                "correct": true,
+                "feedback": "True. For example, relative frequency can be used."
+            },
+            {
+                "answer": "It uses advanced AI methods to paraphrase existing text and generate a summary",
+                "correct": false,
+                "feedback": "False. This is abstractive summarization."
+            },
+            {
+                "answer": "It searches for an abstract of a paper in a document and prints it.",
+                "correct": false,
+                "feedback": "False. It would be useless. Also, not every text has an abstract."
+            },
+            {
+                "answer": "Generates sentences using extracted keywords",
+                "correct": false,
+                "feedback": "False. Extractive summarization chooses existing sentences."
+            }
+        ]
+    }
+   
+]

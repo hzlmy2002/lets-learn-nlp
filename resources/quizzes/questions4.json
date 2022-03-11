@@ -1,0 +1,54 @@
+[
+    {
+        "question": "What is Sentiment Analysis used for?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Recognising emotions from a text",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Analysing opinions and reviews",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Understanding customer feedback",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Recognising peoples' mood and mental state",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "What are some of the difficulties while performing Sentiment Analysis tasks",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Single text / opinion review may include both positive and negative sentences",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Some texts invlude sarcastic expressions which are often classified incorrectly as positive views",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Some words have no emotional polarity at all.",
+                "correct": false,
+                "feedback": "False. This is not a big problem. They are neutral and either do not contribute to analysis or are just ignored during preprocessing phase."
+            },
+            {
+                "answer": "Some sentences may use emotionally stronger vocabulary but they can be less important to the whole text",
+                "correct": true,
+                "feedback": "True. This is why analysing the vocabulary used is not enough and we have to analyse the meaning and context of sentences."
+            }
+        ]
+    }
+]

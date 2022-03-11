@@ -1,0 +1,80 @@
+[
+    {
+        "question": "Which of the following is a proper description of a pipeline?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "A computer program that works",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "Text Recognition software",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "A chain of processes and tools where the output of each element is the input of the next ",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "A method for executing multiple functions at once",
+                "correct": false,
+                "feedback": "False. Pipeline is used when doing things in specific order, one after another"
+            }
+        ]
+    },
+    {
+        "question": "Which table correctly describes the functionality of spacy pipeline components?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Tokenizer: POS recognition\nTagger: Lemmas\nLemmatizater: Tokens\nParser: relations between tokens\nNER: named entities\n",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "code": "Tokenizer: tokens\nTagger: POS\nLemmatizater: Lemmas\nParser: relations between tokens\nNER: named entities\n",
+                "correct": true,
+                "feedback": "True."
+            },
+            {
+                "code": "Tokenizer: tokens\nTagger: Lemmas\nLemmatizater: POS\nParser: relations between tokens\nNER: named entities\n",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "code": "Tokenizer: tokens\nTagger: POS\nLemmatizater: Lemmas\nParser:named entities \nNER: relations between tokens\n",
+                "correct": false,
+                "feedback": "False."
+            }
+        ]
+    },
+    {
+        "question": "Let's say doc is retrieved by applying spacy pipeline on some sentence. How can you view tokens from 3rd to 7th, including the 7th token?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "doc[3:7]",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "code": "doc[2:7]",
+                "correct": true,
+                "feedback": "True."
+            },
+            {
+                "code": "doc[2:6]",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "code": "doc[2-6]",
+                "correct": false,
+                "feedback": "False."
+            }
+        ]
+    }
+]
